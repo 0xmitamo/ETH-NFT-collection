@@ -59,7 +59,7 @@ const App = () => {
     }
   };
   const askContractToMintNft = async () => {
-    const CONTRACT_ADDRESS = "0x67FA4B02E62bC4217dF16a3503De09DeaD20c0d5";
+    const CONTRACT_ADDRESS = "0x505962Bb6aa170ee01Bf94B13A2F595ed323151C";
     try {
       const { ethereum } = window;
       if (ethereum) {
@@ -84,7 +84,7 @@ const App = () => {
     }
   };
   const setupEventListener = async () => {
-    const CONTRACT_ADDRESS = "0x67FA4B02E62bC4217dF16a3503De09DeaD20c0d5";
+    const CONTRACT_ADDRESS = "0x505962Bb6aa170ee01Bf94B13A2F595ed323151C";
     try {
       const { ethereum } = window;
       if (ethereum) {
